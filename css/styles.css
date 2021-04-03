@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(20, 29, 29);
+    border-top: 80px solid orangered;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -33px;
+ }
+
+ .col:nth-child(1) { 
+     width: 25%;
+     background-image: url("https://http2.mlstatic.com/D_NQ_NP_751562-MCO42864555868_072020-W.jpg");
+     background-position: center;
+     background-size: auto 100%;
+     height: 50vh;
+     margin: 10px;
+     border-radius: 15px 15px 0px 0px;
+ }
+
+ .col:nth-child(2) { 
+    width: 25%;
+    background-image: url("https://motos-b60.kxcdn.com/sites/default/files/ktm-1290-super-duke-r-2020.jpg");
+    background-position: center;
+    background-size: auto 100%;
+    height: 50vh;
+    margin: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.col:nth-child(3) { 
+    width: 25%;
+    background-image: url("https://motos-b60.kxcdn.com/sites/default/files/ktm-890-duke-r-2020.jpg");
+    background-position: center;
+    background-size: auto 100%;
+    height: 50vh;
+    margin: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.col h2{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: azure;
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.col button{
+    width: 100%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    background-color: orangered;
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 200px;
+}
+
+.col button:hover{
+    background-color: azure;
+    color: orangered;
+    cursor: pointer;
+}
